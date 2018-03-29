@@ -1,0 +1,3 @@
+- pattern: (.*)\.hs
+  commands:
+  - cabal --ghcjs new-build all
